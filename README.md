@@ -19,11 +19,10 @@ This project documents two everyday Active Directory administration tasks perfor
 
 To reset a user's password, I started from Server Manager and opened the Tools menu to get to Active Directory Users and Computers:
 
-![Open Server Manager Tools](screenshots/01-open-server-manager-tools.png)
-
+![Open ADUC](screenshots/02-open-aduc.png)
 From there I selected Active Directory Users and Computers to bring up the console showing the domain structure:
 
-![Open ADUC](screenshots/02-open-aduc.png)
+
 
 I navigated to the correct Organisational Unit, right-clicked the target user, and selected Reset Password:
 
