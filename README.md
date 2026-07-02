@@ -43,10 +43,11 @@ To verify the reset actually worked end to end, I logged in as the user with the
 After setting a new password at the login screen, Windows confirmed the change was successful, completing the reset workflow:
 
 ![Password change success](screenshots/07-password-change-success.png)
+![Disable account confirmation](screenshots/08-disable-account-confirmation.png)
 
 For the second part of the lab, I simulated an offboarding scenario â€” a user leaving the company. Rather than deleting the account outright, I right-clicked the user in ADUC and selected Disable Account, which is the standard first step in most real offboarding processes:
 
-![Disable account confirmation](screenshots/08-disable-account-confirmation.png)
+
 
 To confirm the account was properly locked out, I attempted to log in as that user and was met with a clear message that the account had been disabled:
 
