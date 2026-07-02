@@ -22,11 +22,11 @@ To reset a user's password, I started from Server Manager and opened the Tools m
 ![Open ADUC](screenshots/02-open-aduc.png)
 From there I selected Active Directory Users and Computers to bring up the console showing the domain structure:
 
-
+![Right-click Reset Password](screenshots/03-right-click-reset-password.png)
 
 I navigated to the correct Organisational Unit, right-clicked the target user, and selected Reset Password:
 
-![Right-click Reset Password](screenshots/03-right-click-reset-password.png)
+
 
 I entered and confirmed a new password, and ticked "User must change password at next logon" so the temporary password I set wouldn't remain in place long-term â€” the user would be forced to set their own on first login:
 
